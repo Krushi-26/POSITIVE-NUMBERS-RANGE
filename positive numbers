@@ -1,0 +1,7 @@
+# POSITIVE-NUMBERS-RANGE
+POSITIVE NUMBERS RANGE
+num = [12,-7,5,64,-14]
+num1 = [12,14,-95,3]
+print("Original numbers in the list:",nums,nums1)
+new_nums =  list(filter(lamda x:x>0,nums,nums1))
+print("positive numbers in the list:"new_nums)
